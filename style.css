@@ -2,10 +2,11 @@
   margin:0;
   padding:0;
 }
-body{
+.body1{
   background-image:url("img/background4.jpeg");
   background-size:cover;
   width:100%;
+  height:670px;
   font-family:sans-serif;
 }
 header{
@@ -18,12 +19,11 @@ header i{
   position:absolute;
   top:10px;
   left:30px;
-  color:white;
-  opacity:0.8;
+  color:rgba(60,190,130,0.8);
 }
 header h1{
   padding-top:10px;
-  color:rgba(255,255,255,0.8);
+  color:rgba(60,190,130,0.8);
 }
 header h2{
   font-size:20px;
@@ -53,7 +53,7 @@ nav a{
   height:300px;
   display:block;
   margin:auto;
-  margin-top:32px;
+  margin-top:50px;
   background-color:rgba(255,255,255,0.3);
   padding-top:50px;
   border-radius:15px;
@@ -82,9 +82,8 @@ nav a{
   height:250px;
   margin-left:6%;
   overflow:hidden;
-
   border-radius:25px;
-  box-shadow:0px 0px 5px;
+  box-shadow:0px 0px 5px ;
 }
 .col1, .col2{
   margin-right:2%;
@@ -106,10 +105,10 @@ nav a{
   height:35px;
   line-height:30px;
   border-top:1px solid rgba(0,0,0,0.6);
-  background-color:rgba(0,140,0,0.9);
+  background-color:rgba(60,190,130,0.8);
   transition:1s ease-in 0.4s;
 }
-footer{
+.body1 footer, .body3 footer{
   width:100%;
   height:100px;
   background-color:rgba(0,0,0,0.6);
@@ -119,7 +118,7 @@ footer{
 footer h3{
   text-align:center;
   line-height:40px;
-    color:rgba(255,255,255,0.8);
+  color:rgba(255,255,255,0.8);
 }
 footer ul{
   text-align:center;
@@ -131,5 +130,162 @@ footer ul li{
 }
 footer i{
   margin-top:8px;
-  color:rgba(255,255,255,0.8);
+  color:rgba(60,190,130,0.8);
+}
+
+
+/* ========================================== */
+/* ===============Contact.html=============== */
+/* ========================================== */
+
+
+.body3{
+  background-image:url("img/background5.jpeg");
+  background-size:cover;
+  width:100%;
+  height:670px;
+  font-family:sans-serif;
+}
+#contact_form{
+ text-shadow:0 0 0 #FFF;
+ border-radius:25px;
+ background:rgba(65,160,110,0.8);
+ width:35%;
+ margin-top:40px;
+ margin-bottom:25px;
+ margin-left:50px;
+ padding:25px;
+ padding-left:50px;
+}
+#ff label{
+ margin:3px 0;
+ color:#FFF;
+ display:block;
+}
+input{
+ display:block;
+ width:90%;
+ border-radius:4px;
+ background-color:#F4F4F4;
+ color:#000;
+ border:0px;
+ padding:10px;
+ margin-bottom:25px;
+}
+textarea{
+ width:92%;
+ resize:none;
+ border:0px;
+ padding:5px;
+}
+#contact_form input[type=submit]{
+ background-color:silver;
+ color:black;
+ margin-top:20px;
+ padding:10px;
+ border:none;
+ font-size:18px;
+}
+
+#contact_form, iframe{
+  display:inline-block;
+}
+iframe{
+  margin-left:19%;
+}
+
+
+/* ========================================== */
+/* ===============Product.html=============== */
+/* ========================================== */
+
+
+.body2{
+  font-family:sans-serif;
+  background-image:url("img/background4.jpeg");
+  background-size:cover;
+}
+.main_container{
+  width:100%;
+  height:1623px;
+}
+.container2{
+  width:90%;
+  display:block;
+  margin:auto;
+}
+.contain2{
+  width:100%;
+  height:425px;
+  background-color:rgba(255,255,255,0.3);
+  padding:10px;
+  padding-top:32px;
+  border-radius:0px 15px 15px 0px;
+}
+#prod1, #prod2, #prod3{
+  width:22%;
+  background-color:rgba(255,255,255,0.3);
+  padding:10px;
+  border-radius:0px 15px 0px 0px;
+  margin-top:32px;
+}
+#prod1 h4{
+  text-align:center;
+}
+.none{
+  font-size:0px;
+}
+.main{
+  width:300px;
+  height:300px;
+}
+.second{
+  display:inline-block;
+  margin-top:-4px;
+  margin-right:-5px;
+}
+.second{
+  width:75px;
+  height:75px;
+}
+.left, .middle, .right, .colvide{
+  display:table-cell;
+}
+.left, .middle, .right{
+  width:26%;
+  height:350px;
+}
+.left, .middle, .right{
+  padding:10px;
+  background-color:white;
+  border-radius: 25px;
+  box-shadow:0px 0px 5px ;
+}
+.middle h4, .right h4{
+  text-align:center;
+}
+.contain2 ul{
+  margin:35px;
+  font-size:14px;
+}
+.colvide{
+  width:5%;
+  height:auto;
+}
+.contain2 h4{
+  margin-top:15px;
+}
+h6{
+  font-size:15px;
+  text-align:center;
+  padding:20px;
+}
+.middle img{
+  display:block;
+  margin:auto;
+}
+.body2 footer{
+  width:100%;
+  height:100px;
+  background-color:rgba(0,0,0,0.6);
 }
