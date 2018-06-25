@@ -1,0 +1,485 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+/* ========================================== */
+/* ===============Index.html=============== */
+/* ========================================== */
+
+
+.body1{
+  background-image:url("img/background4.jpeg");
+  background-size:cover;
+  width:100%;
+  height:auto;
+  font-family:sans-serif;
+}
+header{
+  text-align:center;
+  width:100%;
+  height:85px;
+  background-color:rgba(0,0,0,0.6);
+}
+header i{
+  position:absolute;
+  top:10px;
+  left:30px;
+  color:rgba(60,190,130,0.8);
+}
+header h1{
+  padding-top:10px;
+  color:rgba(60,190,130,0.8);
+}
+header h2{
+  font-size:20px;
+  color:rgba(255,255,255,0.8);
+}
+nav{
+  width:100%;
+  height:40px;
+  background-color:rgba(255,255,255,0.3);
+}
+nav ul{
+  text-align:center;
+}
+nav ul li{
+  display:inline-block;
+  line-height:40px;
+}
+nav a{
+  text-decoration:none;
+  color:black;
+  font-size:22px;
+}
+.container{
+  display:block;
+  margin:auto;
+  margin-top:50px;
+  background-color:rgba(255,255,255,0.3);
+  border-radius:15px;
+}
+.container a{
+  text-decoration:none;
+  color:black;
+}
+.container img{
+  transition:1s ease-in 0s;
+  width:250px;
+  height:250px;
+}
+.container img:hover{
+  transform:scale(1.1);
+}
+.container img:hover~h5{
+  transform:translateY(-250%);
+}
+.container img:hover~h4{
+  transform:translateY(-450%);
+}
+.col1, .col2, .col3{
+  width:250px;
+  height:250px;
+  overflow:hidden;
+  border-radius:25px;
+  box-shadow:0px 0px 5px ;
+}
+
+.col1 h4, .col2 h4, .col3 h4{
+  text-align:center;
+  background-color:rgba(255,255,255,0.9);
+  width:100%;
+  height:55px;
+  line-height:60px;
+  border-top:1px solid rgba(0,0,0,0.6);
+  border-bottom:1px solid rgba(0,0,0,0.6);
+  transition:1s ease-in 0.4s;
+}
+.col1 h5, .col2 h5, .col3 h5{
+  text-align:center;
+  font-size:15px;
+  width:100%;
+  height:35px;
+  line-height:30px;
+  border-top:1px solid rgba(0,0,0,0.6);
+  background-color:rgba(60,190,130,0.8);
+  transition:1s ease-in 0.4s;
+}
+.body1 footer, .body3 footer{
+  width:100%;
+  height:100px;
+  background-color:rgba(0,0,0,0.6);
+}
+.body1 footer{
+  margin-top:45px;
+}
+.body3 footer{
+  margin-top:15px;
+}
+footer h3{
+  text-align:center;
+  line-height:40px;
+  color:rgba(255,255,255,0.8);
+}
+footer ul{
+  text-align:center;
+}
+footer ul li{
+  display:inline-block;
+  margin-left:3%;
+  margin-right:3%;
+}
+footer i{
+  margin-top:8px;
+  color:rgba(60,190,130,0.8);
+}
+
+
+/* ========================================== */
+/* ===============Contact.html=============== */
+/* ========================================== */
+
+
+.body3{
+  background-image:url("img/background5.jpeg");
+  background-size:cover;
+  width:100%;
+  height:auto;
+  font-family:sans-serif;
+}
+#contact_form{
+ text-shadow:0 0 0 #FFF;
+ border-radius:25px;
+ background:rgba(65,160,110,0.8);
+ margin-top:40px;
+ margin-bottom:25px;
+ padding:25px;
+ padding-left:50px;
+}
+#ff label{
+ margin:3px 0;
+ color:#FFF;
+ display:block;
+}
+.container3 input{
+ display:block;
+ width:90%;
+ border-radius:4px;
+ background-color:#F4F4F4;
+ color:#000;
+ border:0px;
+ padding:10px;
+ margin-bottom:25px;
+}
+textarea{
+ width:92%;
+ resize:none;
+ border:0px;
+ padding:5px;
+}
+#contact_form input[type=submit]{
+ background-color:silver;
+ color:black;
+ margin-top:20px;
+ padding:10px;
+ border:none;
+ font-size:18px;
+}
+
+
+
+/* ========================================== */
+/* ===============Product.html=============== */
+/* ========================================== */
+
+
+.body2{
+  font-family:sans-serif;
+  background-image:url("img/background4.jpeg");
+  background-size:cover;
+}
+.main_container{
+  width:100%;
+  height:auto;
+}
+.container2{
+  width:90%;
+  display:block;
+  margin:auto;
+}
+.contain2{
+  background-color:rgba(255,255,255,0.3);
+  padding:10px;
+  padding-top:32px;
+  padding-bottom:32px;
+  border-radius:0px 15px 15px 0px;
+}
+#prod1, #prod2, #prod3{
+  background-color:rgba(255,255,255,0.3);
+  padding:10px;
+  border-radius:0px 15px 0px 0px;
+  margin-top:32px;
+}
+#prod1 h4{
+  text-align:center;
+}
+.none{
+  font-size:0px;
+}
+.main{
+  width:300px;
+  height:300px;
+}
+.second{
+  display:inline-block;
+  margin-top:-4px;
+  margin-right:-5px;
+}
+.second{
+  width:75px;
+  height:75px;
+}
+
+.left, .middle, .right{
+  padding:10px;
+  background-color:white;
+  border-radius: 25px;
+  box-shadow:0px 0px 5px ;
+}
+.middle h4, .right h4{
+  text-align:center;
+}
+.contain2 ul{
+  margin:35px;
+  font-size:14px;
+}
+.colvide, .colvide1, .colvide2{
+  height:auto;
+}
+.contain2 h4{
+  margin-top:15px;
+}
+h6{
+  font-size:15px;
+  text-align:center;
+  padding:20px;
+}
+.middle img{
+  display:block;
+  margin:auto;
+}
+.right ul{
+  list-style-type: none;
+  text-align:center;
+  line-height:35px;
+}
+.right input{
+  border:2px solid rgba(60,190,130);
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  margin:auto;
+  font-size: 25px;
+  margin-top:55px;
+  transition:0.4s linear 0s;
+  cursor:pointer;
+}
+.right input:hover{
+  background-color: rgba(60,190,130);
+}
+.body2 footer{
+  width:100%;
+  height:100px;
+  background-color:rgba(0,0,0,0.6);
+  margin-top:52px;
+}
+
+
+
+/* ========================================== */
+/* ===============Responsive================= */
+/* ========================================== */
+
+
+@media (min-width: 576px){
+  nav ul li{
+    margin-left:5%;
+    margin-right:4.5%;
+  }
+  .container{
+    height:900px;
+    padding:50px;
+    width:60%;
+  }
+  .col1, .col2, .col3{
+    display:block;
+    margin:auto;
+  }
+  .col2, .col3{
+    margin-top:52px;
+  }
+  iframe{
+    display:block;
+    margin:auto;
+  }
+  #contact_form{
+    width:auto;
+    margin-right:50px;
+    margin-left:50px;
+    display:block;
+  }
+  .colvide1, .colvide2, .colvide{
+    display:none;
+  }
+  .left, .middle, .right{
+    display:block;
+    margin:auto;
+    height:350px;
+    padding-bottom:25px;
+    min-width:265px;
+    max-width:300px;
+    min-height:360px;
+    max-height:360px;
+    margin-top:32px;
+  }
+  .container2{
+    width:90%;
+  }
+  #prod1, #prod2, #prod3{
+    width:50%;
+  }
+}
+@media (max-width: 576px){
+  nav ul li{
+    margin-left:5%;
+    margin-right:4.5%;
+  }
+  .container{
+    height:900px;
+    padding:50px;
+    width:60%;
+  }
+  .col1, .col2, .col3{
+    display:block;
+    margin:auto;
+  }
+  .col2, .col3{
+    margin-top:52px;
+  }
+  iframe{
+    display:block;
+    margin:auto;
+  }
+  #contact_form{
+    width:auto;
+    margin-right:10px;
+    margin-left:10px;
+    display:block;
+  }
+  .colvide1, .colvide2, .colvide{
+    display:none;
+  }
+  .left, .middle, .right{
+    display:block;
+    margin:auto;
+    padding-bottom:25px;
+    min-width:265px;
+    max-width:300px;
+    min-height:360px;
+    max-height:360px;
+    margin-top:32px;
+  }
+  .container2{
+    width:90%;
+  }
+  #prod1, #prod2, #prod3{
+    width:50%;
+  }
+}
+@media (min-width: 768px){
+  .container{
+    width:95%;
+    height:300px;
+    padding-top:0px;
+  }
+  .container2{
+    width:80%;
+  }
+  .col1, .col2, .col3{
+    display:inline-block;
+    margin-left:0px;
+  }
+  .col1, .col2{
+    margin-right:0px;
+  }
+  .contain2{
+    height:850px;
+    width:100%;
+  }
+  .left, .middle, .colvide1{
+    display:table-cell;
+  }
+  .colvide1{
+    width:1%;
+  }
+  #prod1, #prod2, #prod3{
+    width:40%;
+  }
+}
+@media (min-width:1000px){
+  .container{
+    width:80%;
+  }
+  .contain2{
+    height:425px;
+    width:100%;
+  }
+  .container2{
+    width:90%;
+  }
+  .left, .middle, .right, .colvide1, .colvide2, .colvide{
+    display:table-cell;
+  }
+  .colvide2, .colvide{
+    width:1%;
+  }
+  #prod1, #prod2, #prod3{
+    width:30%;
+  }
+}
+@media (min-width: 1200px){
+  nav ul li{
+    margin-left:10%;
+    margin-right:9%;
+  }
+  .col1, .col2, .col3{
+    margin-left:5.5%;
+  }
+  .col1, .col2{
+    margin-right:2%;
+  }
+  .col2, .col3{
+    margin-top:none;
+  }
+  #contact_form, iframe{
+    display:inline-block;
+  }
+  iframe{
+    margin-left:19%;
+  }
+  #contact_form{
+    width:35%;
+  }
+  .colvide, .colvide1, .colvide2{
+    width:5%;
+  }
+  .container2{
+    width:90%;
+  }
+  #prod1, #prod2, #prod3{
+    width:22%;
+  }
+}
