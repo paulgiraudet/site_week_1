@@ -2,11 +2,18 @@
   margin:0;
   padding:0;
 }
+
+
+/* ========================================== */
+/* ===============Index.html=============== */
+/* ========================================== */
+
+
 .body1{
   background-image:url("img/background4.jpeg");
   background-size:cover;
   width:100%;
-  height:670px;
+  height:auto;
   font-family:sans-serif;
 }
 header{
@@ -39,8 +46,6 @@ nav ul{
 }
 nav ul li{
   display:inline-block;
-  margin-left:10%;
-  margin-right:9%;
   line-height:40px;
 }
 nav a{
@@ -49,13 +54,10 @@ nav a{
   font-size:22px;
 }
 .container{
-  width:80%;
-  height:300px;
   display:block;
   margin:auto;
   margin-top:50px;
   background-color:rgba(255,255,255,0.3);
-  padding-top:50px;
   border-radius:15px;
 }
 .container a{
@@ -63,9 +65,9 @@ nav a{
   color:black;
 }
 .container img{
+  transition:1s ease-in 0s;
   width:250px;
   height:250px;
-  transition:1s ease-in 0s;
 }
 .container img:hover{
   transform:scale(1.1);
@@ -77,17 +79,13 @@ nav a{
   transform:translateY(-450%);
 }
 .col1, .col2, .col3{
-  display:inline-block;
   width:250px;
   height:250px;
-  margin-left:6%;
   overflow:hidden;
   border-radius:25px;
   box-shadow:0px 0px 5px ;
 }
-.col1, .col2{
-  margin-right:2%;
-}
+
 .col1 h4, .col2 h4, .col3 h4{
   text-align:center;
   background-color:rgba(255,255,255,0.9);
@@ -112,8 +110,12 @@ nav a{
   width:100%;
   height:100px;
   background-color:rgba(0,0,0,0.6);
-  position:absolute;
-  bottom:0;
+}
+.body1 footer{
+  margin-top:45px;
+}
+.body3 footer{
+  margin-top:15px;
 }
 footer h3{
   text-align:center;
@@ -143,14 +145,13 @@ footer i{
   background-image:url("img/background5.jpeg");
   background-size:cover;
   width:100%;
-  height:670px;
+  height:auto;
   font-family:sans-serif;
 }
 #contact_form{
  text-shadow:0 0 0 #FFF;
  border-radius:25px;
  background:rgba(65,160,110,0.8);
- width:35%;
  margin-top:40px;
  margin-bottom:25px;
  margin-left:50px;
@@ -162,7 +163,7 @@ footer i{
  color:#FFF;
  display:block;
 }
-input{
+.container3 input{
  display:block;
  width:90%;
  border-radius:4px;
@@ -187,12 +188,6 @@ textarea{
  font-size:18px;
 }
 
-#contact_form, iframe{
-  display:inline-block;
-}
-iframe{
-  margin-left:19%;
-}
 
 
 /* ========================================== */
@@ -284,8 +279,132 @@ h6{
   display:block;
   margin:auto;
 }
+.right ul{
+  list-style-type: none;
+  text-align:center;
+  line-height:35px;
+}
+.right input{
+  border:2px solid rgba(60,190,130);
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  margin:auto;
+  font-size: 25px;
+  margin-top:55px;
+  transition:0.4s linear 0s;
+  cursor:pointer;
+}
+.right input:hover{
+  background-color: rgba(60,190,130);
+}
 .body2 footer{
   width:100%;
   height:100px;
   background-color:rgba(0,0,0,0.6);
+}
+
+
+
+/* ========================================== */
+/* ===============Responsive================= */
+/* ========================================== */
+
+
+@media (min-width: 576px){
+  nav ul li{
+    margin-left:5%;
+    margin-right:4.5%;
+  }
+  .container{
+    height:900px;
+    padding:50px;
+    width:60%;
+  }
+  .col1, .col2, .col3{
+    display:block;
+    margin:auto;
+  }
+  .col2, .col3{
+    margin-top:52px;
+  }
+  iframe{
+    display:block;
+    margin:auto;
+  }
+  #contact_form{
+    width:auto;
+    margin-right:50px;
+    display:block;
+  }
+}
+@media (max-width: 576px){
+  nav ul li{
+    margin-left:5%;
+    margin-right:4.5%;
+  }
+  .container{
+    height:900px;
+    padding:50px;
+    width:60%;
+  }
+  .col1, .col2, .col3{
+    display:block;
+    margin:auto;
+  }
+  .col2, .col3{
+    margin-top:52px;
+  }
+  iframe{
+    display:block;
+    margin:auto;
+  }
+  #contact_form{
+    width:auto;
+    margin-right:50px;
+    display:block;
+  }
+}
+@media (min-width: 768px){
+  .container{
+    width:95%;
+    height:300px;
+    padding-top:0px;
+  }
+  .col1, .col2, .col3{
+    display:inline-block;
+    margin-left:0px;
+  }
+  .col1, .col2{
+    margin-right:0px;
+  }
+}
+@media (min-width: 1200px){
+  nav ul li{
+    margin-left:10%;
+    margin-right:9%;
+  }
+  .container{
+    width:80%;
+  }
+  .col1, .col2, .col3{
+    margin-left:5.5%;
+  }
+  .col1, .col2{
+    margin-right:2%;
+  }
+  .col2, .col3{
+    margin-top:none;
+  }
+  #contact_form, iframe{
+    display:inline-block;
+  }
+  iframe{
+    margin-left:19%;
+  }
+  #contact_form{
+    width:35%;
+  }
 }
